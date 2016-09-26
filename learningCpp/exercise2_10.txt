@@ -1,0 +1,12 @@
+//std = standard library
+
+int main() {
+	int k = 0;
+	while (k != n) {
+		using std::cout; //telling the program that you can use cout without the std in the front
+		cout << "*"; 
+		++k;
+	}
+	std::cout << std::endl; //printing a new line, need std because using was inside the loop and this is outside
+	return 0;
+}
