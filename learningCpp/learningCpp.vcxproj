@@ -160,9 +160,13 @@
     <ClCompile Include="exercise3_6.cpp" />
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="USACO\2013 November Bronze\combo.cpp" />
+    <ClCompile Include="USACO\2013 November Bronze\milktemp.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="learningCpp.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="USACO\2013 November Bronze\milktemp.in" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
