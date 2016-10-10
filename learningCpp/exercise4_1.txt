@@ -1,0 +1,1 @@
+It should be fine since they are both string::size_type. 

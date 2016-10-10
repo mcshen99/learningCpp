@@ -7,15 +7,11 @@ using namespace std;
 string intToString(int x);
 
 int main() {
-	cout << "Please enter total number of words: ";
-	int n;
-	cin >> n;
-	cout << "Please enter words: ";
+	cout << "Please enter words, followed by end-of-file: ";
 	string x;
 	vector<string> words;
 	vector<int> freq;
-	for (int i = 0; i < n; ++i) {
-		cin >> x;
+	while (cin >> x) {
 		words.push_back(x);
 	}
 	sort(words.begin(), words.end());

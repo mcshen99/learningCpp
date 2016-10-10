@@ -19,6 +19,9 @@
     <Text Include="exercise2_10.txt">
       <Filter>Source Files</Filter>
     </Text>
+    <Text Include="exercise4_1.txt">
+      <Filter>Source Files</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -28,6 +31,18 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="median.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Student_info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="grade.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -60,6 +75,21 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="USACO\2013 November Bronze\milktemp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise4_0.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise4_j.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise5_0a.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise5_0b.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise5_10.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
