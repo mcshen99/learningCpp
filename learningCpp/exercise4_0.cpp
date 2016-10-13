@@ -1,8 +1,5 @@
 #include <algorithm>
 #include <iomanip>
-#include <ios> 
-#include <iostream> 
-#include <stdexcept>
 #include <string>
 #include <vector>
 #include "grade.h"
