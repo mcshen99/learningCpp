@@ -92,6 +92,21 @@
     <ClCompile Include="exercise5_10.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="exercise6_0a.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise6_0b.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="USACO\2013 December Silver\msched.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="USACO\2013 December Silver\vacation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="USACO\2013 December Silver\exercise6_3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="learningCpp.rc">
@@ -100,5 +115,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="USACO\2013 November Bronze\milktemp.in" />
+    <None Include="USACO\2013 December Silver\msched.in" />
+    <None Include="USACO\2013 December Silver\vacation.in" />
   </ItemGroup>
 </Project>
