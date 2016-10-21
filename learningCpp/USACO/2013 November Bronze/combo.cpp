@@ -32,7 +32,7 @@ int main() {
 				test.push_back(i);
 				test.push_back(j);
 				test.push_back(k);
-				if (closeVec(N, test, farmer) == true || closeVec(N, test, master) == true) {
+				if (closeVec(N, test, farmer) || closeVec(N, test, master)) {
 					++count;
 				}
 			}
@@ -45,13 +45,7 @@ int main() {
 }
 
 bool closeInt(int N, int n1, int n2) {
-	if (n1 - n2 <= 2 && n1 - n2 >= -2) {
-		return true;
-	} else if (n1 - n2 >= N - 2 || n2 - n1 >= N - 2) {
-		return true;
-	} else {
-		return false;
-	}
+	return abs(n1 - n2) <= 2 || abs(n1 - n2) >= N - 2;
 }
 
 bool closeVec(int N, vector<int> vec1, vector<int> vec2) {

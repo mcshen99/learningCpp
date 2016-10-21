@@ -29,14 +29,15 @@ int main() {
 		sum += x;
 	}
 
+	//it prints -nan(ind)
 	if (count == 0) {
 		cout << endl << "You must enter your grades. Please try again." << endl;
 		return 1;
 	}
 
-	streamsize prec = cout.precision;
+	streamsize prec = cout.precision();
 	cout << "Your final grade is " << setprecision(3)
-		<< 0.2 * midterm + 0.4 * final + 0.4 * sum / count
+		<< 0.2 * midterm + 0.4 * final + 0.4 * sum / count 
 		<< setprecision(prec) << endl;
 	return 0;
 }

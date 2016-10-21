@@ -104,7 +104,10 @@
     <ClCompile Include="USACO\2013 December Silver\vacation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="USACO\2013 December Silver\exercise6_3.cpp">
+    <ClCompile Include="exercise6_9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise6_3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

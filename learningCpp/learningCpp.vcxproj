@@ -170,8 +170,9 @@
     <ClCompile Include="exercise5_10.cpp" />
     <ClCompile Include="exercise6_0a.cpp" />
     <ClCompile Include="exercise6_0b.cpp" />
+    <ClCompile Include="exercise6_3.cpp" />
+    <ClCompile Include="exercise6_9.cpp" />
     <ClCompile Include="stdafx.cpp" />
-    <ClCompile Include="USACO\2013 December Silver\exercise6_3.cpp" />
     <ClCompile Include="USACO\2013 December Silver\msched.cpp" />
     <ClCompile Include="USACO\2013 December Silver\vacation.cpp" />
     <ClCompile Include="USACO\2013 November Bronze\combo.cpp" />
