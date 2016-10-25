@@ -144,6 +144,7 @@
   <ItemGroup>
     <Text Include="exercise2_10.txt" />
     <Text Include="exercise4_1.txt" />
+    <Text Include="exercise7_m.txt" />
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
@@ -172,6 +173,10 @@
     <ClCompile Include="exercise6_0b.cpp" />
     <ClCompile Include="exercise6_3.cpp" />
     <ClCompile Include="exercise6_9.cpp" />
+    <ClCompile Include="exercise7_0.cpp" />
+    <ClCompile Include="exercise7_j.cpp" />
+    <ClCompile Include="exercise7_k.cpp" />
+    <ClCompile Include="exercise7_m.cpp" />
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="USACO\2013 December Silver\msched.cpp" />
     <ClCompile Include="USACO\2013 December Silver\vacation.cpp" />
