@@ -22,7 +22,7 @@ int main() {
 		return 1;
 	}
 
-	default_random_engine generator(time(0));
+	default_random_engine generator(clock());
 	discrete_distribution<int> distribution {1,2,3,4,5,6,7,8,9,10};
 
 	int computerBlotto[numCastles] = {};
