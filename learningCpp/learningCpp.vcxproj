@@ -177,6 +177,8 @@
     <ClCompile Include="exercise7_j.cpp" />
     <ClCompile Include="exercise7_k.cpp" />
     <ClCompile Include="exercise7_m.cpp" />
+    <ClCompile Include="exercise7_n.cpp" />
+    <ClCompile Include="exercise8_0.cpp" />
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="USACO\2013 December Silver\msched.cpp" />
     <ClCompile Include="USACO\2013 December Silver\vacation.cpp" />
