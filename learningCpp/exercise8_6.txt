@@ -1,0 +1,1 @@
+x is a container. Calling copy(x.begin(), x.end(), back_inserter(m)) works if x has the push_back function. 
