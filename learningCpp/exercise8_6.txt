@@ -1,1 +1,2 @@
-x is a container. Calling copy(x.begin(), x.end(), back_inserter(m)) works if x has the push_back function. 
+x must have a function push_back(pair<int, string>).
+Calling copy(x.begin(), x.end(), back_inserter(m)) doesn't compile because map does not have a push_back() function. 

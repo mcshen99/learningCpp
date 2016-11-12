@@ -3,7 +3,7 @@
 
 #include <iostream>
 #include <string> 
-#include <vector>
+#include <list>
 
 struct Student_info {
 	std::string name;

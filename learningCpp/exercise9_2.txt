@@ -1,0 +1,4 @@
+We would have to change compare because it calls name().
+
+//const differs from final because final objects in java can still be changed 
+//only the reference can't be changed, but for c++ you can't change it at all.

@@ -25,6 +25,9 @@
     <Text Include="exercise7_m.txt">
       <Filter>Source Files</Filter>
     </Text>
+    <Text Include="exercise8_6.txt">
+      <Filter>Source Files</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -125,6 +128,21 @@
     <ClCompile Include="exercise7_m.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="exercise7_n.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise8_0.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise8_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="USACO\2014 January Silver\slowdown.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="USACO\2014 January Silver\ccski.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="learningCpp.rc">
@@ -135,5 +153,7 @@
     <None Include="USACO\2013 November Bronze\milktemp.in" />
     <None Include="USACO\2013 December Silver\msched.in" />
     <None Include="USACO\2013 December Silver\vacation.in" />
+    <None Include="USACO\2014 January Silver\slowdown.in" />
+    <None Include="USACO\2014 January Silver\ccski.in" />
   </ItemGroup>
 </Project>

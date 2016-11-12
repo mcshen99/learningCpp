@@ -1,3 +1,5 @@
+#include <utility>
+
 template<class In, class Out> Out copy(In begin, In end, Out dest) {
 	while (begin != end) {
 		*dest++ = *begin++;
@@ -51,7 +53,7 @@ template <class In, class T> In remove(In b, In e, T t) {
 	In ret = b;
 	while (b != e) {
 		if (*b != t) {
-			*ret = *b;
+			*ret = std::move(*b);
 			++ret;
 		}
 

@@ -145,6 +145,7 @@
     <Text Include="exercise2_10.txt" />
     <Text Include="exercise4_1.txt" />
     <Text Include="exercise7_m.txt" />
+    <Text Include="exercise8_6.txt" />
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
@@ -185,6 +186,8 @@
     <ClCompile Include="USACO\2013 December Silver\vacation.cpp" />
     <ClCompile Include="USACO\2013 November Bronze\combo.cpp" />
     <ClCompile Include="USACO\2013 November Bronze\milktemp.cpp" />
+    <ClCompile Include="USACO\2014 January Silver\ccski.cpp" />
+    <ClCompile Include="USACO\2014 January Silver\slowdown.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="learningCpp.rc" />
@@ -193,6 +196,8 @@
     <None Include="USACO\2013 December Silver\msched.in" />
     <None Include="USACO\2013 December Silver\vacation.in" />
     <None Include="USACO\2013 November Bronze\milktemp.in" />
+    <None Include="USACO\2014 January Silver\ccski.in" />
+    <None Include="USACO\2014 January Silver\slowdown.in" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
