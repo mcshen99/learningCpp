@@ -146,14 +146,17 @@
     <Text Include="exercise4_1.txt" />
     <Text Include="exercise7_m.txt" />
     <Text Include="exercise8_6.txt" />
+    <Text Include="exercise9_2.txt" />
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="grade.h" />
+    <ClInclude Include="grade_2.h" />
     <ClInclude Include="median.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="Student_info.h" />
+    <ClInclude Include="Student_info_2.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="Triangle.h" />
   </ItemGroup>
@@ -181,11 +184,15 @@
     <ClCompile Include="exercise7_n.cpp" />
     <ClCompile Include="exercise8_0.cpp" />
     <ClCompile Include="exercise8_2.cpp" />
+    <ClCompile Include="exercise9_3.cpp" />
+    <ClCompile Include="exercise9_0.cpp" />
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="USACO\2013 December Silver\msched.cpp" />
     <ClCompile Include="USACO\2013 December Silver\vacation.cpp" />
     <ClCompile Include="USACO\2013 November Bronze\combo.cpp" />
     <ClCompile Include="USACO\2013 November Bronze\milktemp.cpp" />
+    <ClCompile Include="USACO\2014 February Gold\rblock.cpp" />
+    <ClCompile Include="USACO\2014 February Silver\scode.cpp" />
     <ClCompile Include="USACO\2014 January Silver\ccski.cpp" />
     <ClCompile Include="USACO\2014 January Silver\slowdown.cpp" />
   </ItemGroup>
@@ -196,6 +203,10 @@
     <None Include="USACO\2013 December Silver\msched.in" />
     <None Include="USACO\2013 December Silver\vacation.in" />
     <None Include="USACO\2013 November Bronze\milktemp.in" />
+    <None Include="USACO\2014 February Gold\rblock.in" />
+    <None Include="USACO\2014 February Gold\rblock.out" />
+    <None Include="USACO\2014 February Silver\scode.in" />
+    <None Include="USACO\2014 February Silver\scode.out" />
     <None Include="USACO\2014 January Silver\ccski.in" />
     <None Include="USACO\2014 January Silver\slowdown.in" />
   </ItemGroup>
