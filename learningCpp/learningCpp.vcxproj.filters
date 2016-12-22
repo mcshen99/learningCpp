@@ -31,6 +31,15 @@
     <Text Include="exercise9_2.txt">
       <Filter>Source Files</Filter>
     </Text>
+    <Text Include="exercise11_1.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="exercise11_3.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="exercise11_9.txt">
+      <Filter>Source Files</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -162,6 +171,24 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="USACO\2014 February Silver\scode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise10_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise10_3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise10_4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise11_0.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise11_6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise12.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

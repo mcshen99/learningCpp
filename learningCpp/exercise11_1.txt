@@ -1,0 +1,2 @@
+If you don't have one, the compiler automatically makes a 
+default copy constructor, assignment operator, and destructor. 
