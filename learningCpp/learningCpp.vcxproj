@@ -143,7 +143,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <Text Include="exercise11_1.txt" />
-    <Text Include="exercise11_3.txt" />
+    <Text Include="exercise11_4.txt" />
     <Text Include="exercise11_9.txt" />
     <Text Include="exercise2_10.txt" />
     <Text Include="exercise4_1.txt" />
@@ -171,6 +171,7 @@
     <ClCompile Include="exercise11_0.cpp" />
     <ClCompile Include="exercise11_6.cpp" />
     <ClCompile Include="exercise12.cpp" />
+    <ClCompile Include="exercise13_0.cpp" />
     <ClCompile Include="exercise1_0.cpp" />
     <ClCompile Include="exercise2_7.cpp" />
     <ClCompile Include="exercise2_9.cpp" />
