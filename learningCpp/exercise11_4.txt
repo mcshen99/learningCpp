@@ -1,1 +1,6 @@
-have not attempted
+std::string n;
+double midterm, final;
+std::vector<double> homework;
+
+The synthesized Student_info destructor destroys 4 members. 
+Note: it calls 2 destructors (string and vector).

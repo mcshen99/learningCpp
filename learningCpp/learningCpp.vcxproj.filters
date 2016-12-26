@@ -34,10 +34,10 @@
     <Text Include="exercise11_1.txt">
       <Filter>Source Files</Filter>
     </Text>
-    <Text Include="exercise11_3.txt">
+    <Text Include="exercise11_9.txt">
       <Filter>Source Files</Filter>
     </Text>
-    <Text Include="exercise11_9.txt">
+    <Text Include="exercise13_9.txt">
       <Filter>Source Files</Filter>
     </Text>
   </ItemGroup>
@@ -189,6 +189,18 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="exercise12.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise13_0.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise13_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise13_2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise13_4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

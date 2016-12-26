@@ -1,1 +1,5 @@
-grow is O(log(n))
+1. log2(k)
+2. 3/4 since you use 1/2 to 1 of the space you allocated.
+3. log2(k) and 3/8 since you use 1/4 to 1/2 of the total space you allocated.
+
+Instead of 2, use a smaller number such as 1.5. 
