@@ -1,0 +1,2 @@
+If the assignment operator failed to check for self-assignment, then it would delete cp. 
+When reassigning this to s, you would assign it to null.
