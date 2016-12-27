@@ -143,6 +143,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <Text Include="exercise11_1.txt" />
+    <Text Include="exercise11_4.txt" />
     <Text Include="exercise11_9.txt" />
     <Text Include="exercise13_9.txt" />
     <Text Include="exercise2_10.txt" />

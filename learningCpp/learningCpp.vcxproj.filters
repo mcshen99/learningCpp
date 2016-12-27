@@ -40,6 +40,9 @@
     <Text Include="exercise13_9.txt">
       <Filter>Source Files</Filter>
     </Text>
+    <Text Include="exercise11_4.txt">
+      <Filter>Source Files</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">

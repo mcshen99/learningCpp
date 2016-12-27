@@ -1,6 +1,8 @@
 #include <vector>
 #include<iterator>
 #include <iostream>
+#include <cstring>
+#include <algorithm>
 
 using namespace std;
 
@@ -40,8 +42,11 @@ public:
 	}
 
 	size_type size() const { return data.size(); }
+
 	char& operator[](size_type i) { return data[i]; }
 	const char& operator[](size_type i) const { return data[i]; }
+
+	operator bool() const { return data.size() > 0; }
 
 private:
 	std::vector<char> data;
@@ -60,6 +65,114 @@ Str operator+(const Str& s, const Str& t) {
 	return r;
 }
 
+Str operator+(const Str& s, const char* t) {
+	Str r = s;
+	r += t;
+	return r;
+}
+
+Str operator+(const char* s, const Str& t) {
+	Str r = s;
+	r += t;
+	return r;
+}
+
+bool operator<(const Str& lhs, const Str& rhs) {
+	std::vector<char>::size_type lhs_size = lhs.size();
+	for (std::vector<char>::size_type i = 0; i < rhs.size(); ++i) {
+		if (lhs_size <= i) {
+			return true;
+		}
+		int cmp = strcmp(&lhs[i], &rhs[i]);
+		if (cmp < 0) {
+			return true;
+		} else if (cmp > 0) {
+			return false;
+		}
+	}
+
+	return false;
+}
+
+bool operator<=(const Str& lhs, const Str& rhs) {
+	std::vector<char>::size_type lhs_size = lhs.size();
+	for (std::vector<char>::size_type i = 0; i < rhs.size(); ++i) {
+		if (lhs_size <= i) {
+			return true;
+		}
+		int cmp = strcmp(&lhs[i], &rhs[i]);
+		if (cmp < 0) {
+			return true;
+		} else if (cmp > 0) {
+			return false;
+		}
+	}
+
+	return true;
+}
+
+bool operator>(const Str& lhs, const Str& rhs) {
+	std::vector<char>::size_type lhs_size = lhs.size();
+	for (std::vector<char>::size_type i = 0; i < rhs.size(); ++i) {
+		if (lhs_size <= i) {
+			return false;
+		}
+		int cmp = strcmp(&lhs[i], &rhs[i]);
+		if (cmp < 0) {
+			return false;
+		} else if (cmp > 0) {
+			return true;
+		}
+	}
+
+	return false;
+}
+
+bool operator>=(const Str& lhs, const Str& rhs) {
+	std::vector<char>::size_type lhs_size = lhs.size();
+	for (std::vector<char>::size_type i = 0; i < rhs.size(); ++i) {
+		if (lhs_size <= i) {
+			return false;
+		}
+		int cmp = strcmp(&lhs[i], &rhs[i]);
+		if (cmp < 0) {
+			return false;
+		} else if (cmp > 0) {
+			return true;
+		}
+	}
+
+	return true;
+}
+
+bool operator==(const Str& lhs, const Str& rhs) {
+	if (lhs.size() != rhs.size()) {
+		return false;
+	}
+	for (std::vector<char>::size_type i = 0; i < rhs.size(); ++i) {
+		int cmp = strcmp(&lhs[i], &rhs[i]);
+		if (cmp != 0) {
+			return false;
+		}
+	}
+
+	return true;
+}
+
+bool operator!=(const Str& lhs, const Str& rhs) {
+	if (lhs.size() != rhs.size()) {
+		return true;
+	}
+	for (std::vector<char>::size_type i = 0; i < min(lhs.size(), rhs.size()); ++i) {
+		int cmp = strcmp(&lhs[i], &rhs[i]);
+		if (cmp != 0) {
+			return true;
+		}
+	}
+
+	return false;
+}
+
 int main() {
 	double d = 10;
 	double d2;
@@ -73,6 +186,29 @@ int main() {
 	cout << "Enter your name: ";
 	cin >> name;
 	const Str greeting = "Hello, " + name + "! ";
+
+	Str foo = "alpha";
+	Str bar = "alpha";
+
+	if (foo == bar) std::cout << "foo and bar are equal\n";
+	if (foo != bar) std::cout << "foo and bar are not equal\n";
+	if (foo< bar) std::cout << "foo is less than bar\n";
+	if (foo> bar) std::cout << "foo is greater than bar\n";
+	if (foo <= bar) std::cout << "foo is less than or equal to bar\n";
+	if (foo >= bar) std::cout << "foo is greater than or equal to bar\n";
+
+	Str test;
+	if (test) {
+		cout << "test is not empty." << endl;
+	} else {
+		cout << "test is empty." << endl;
+	}
+	Str me = "me";
+	if (me) {
+		cout << "me is not empty." << endl;
+	} else {
+		cout << "me is empty." << endl;
+	}
 
 	return 0;
 }
