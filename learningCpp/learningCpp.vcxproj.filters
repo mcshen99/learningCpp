@@ -43,6 +43,9 @@
     <Text Include="exercise11_4.txt">
       <Filter>Source Files</Filter>
     </Text>
+    <Text Include="primer3_29.txt">
+      <Filter>Source Files</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -204,6 +207,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="exercise13_4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="primer3_43.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="primer3_45.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
