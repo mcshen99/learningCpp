@@ -215,6 +215,12 @@
     <ClCompile Include="primer3_45.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="USACO\2014 March Gold\sabotage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="USACO\2014 March Silver\mooomoo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="learningCpp.rc">
@@ -231,5 +237,7 @@
     <None Include="USACO\2014 February Gold\rblock.out" />
     <None Include="USACO\2014 February Silver\scode.in" />
     <None Include="USACO\2014 February Silver\scode.out" />
+    <None Include="USACO\2014 March Gold\sabotage.in" />
+    <None Include="USACO\2014 March Silver\mooomoo.in" />
   </ItemGroup>
 </Project>
