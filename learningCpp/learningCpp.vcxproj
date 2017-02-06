@@ -214,6 +214,8 @@
     <ClCompile Include="USACO\2014 January Silver\slowdown.cpp" />
     <ClCompile Include="USACO\2014 March Gold\sabotage.cpp" />
     <ClCompile Include="USACO\2014 March Silver\mooomoo.cpp" />
+    <ClCompile Include="USACO\2014 Open Silver\fairphoto.cpp" />
+    <ClCompile Include="USACO\2014 Open Silver\gpsduel.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="learningCpp.rc" />
@@ -230,6 +232,8 @@
     <None Include="USACO\2014 January Silver\slowdown.in" />
     <None Include="USACO\2014 March Gold\sabotage.in" />
     <None Include="USACO\2014 March Silver\mooomoo.in" />
+    <None Include="USACO\2014 Open Silver\fairphoto.in" />
+    <None Include="USACO\2014 Open Silver\gpsduel.in" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

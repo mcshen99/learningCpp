@@ -221,6 +221,12 @@
     <ClCompile Include="USACO\2014 March Silver\mooomoo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="USACO\2014 Open Silver\gpsduel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="USACO\2014 Open Silver\fairphoto.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="learningCpp.rc">
@@ -239,5 +245,7 @@
     <None Include="USACO\2014 February Silver\scode.out" />
     <None Include="USACO\2014 March Gold\sabotage.in" />
     <None Include="USACO\2014 March Silver\mooomoo.in" />
+    <None Include="USACO\2014 Open Silver\gpsduel.in" />
+    <None Include="USACO\2014 Open Silver\fairphoto.in" />
   </ItemGroup>
 </Project>
