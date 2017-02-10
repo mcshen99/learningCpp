@@ -1,0 +1,10 @@
+auto p = new int();
+auto sp = make_shared<int>();
+a) process(sp);
+Legal. In process sp has 2 reference counts and it uses sp. Once it is finished, sp is decremented. 
+b) process(new int());
+Illegal. This is a regular pointer and cannot be converted to a shared pointer.
+c) process(p);
+Illegal. Same problem as b.
+d) process(shared_ptr<int>(p));
+Legal. p is converted a shared pointer and then it does the same thing as a. 

@@ -1,0 +1,6 @@
+int *q = new int(42), *r = new int(100); //initializes 2 normal pointers
+//q points to int with value 42 and p points to int with value to 100
+r = q; //r and q both point to an int with value 42, the 100 is unfreed memory
+auto q2 = make_shared<int>(42), r2 = make_shared<int>(100); //initializes 2 shared pointers
+//q2 points to int with value 42 and one user and p points to int with value 100 and one user
+r2 = q2; //destroys earlier r2 since only one user and then points r2 to the int with value 42 and now it has 2 users

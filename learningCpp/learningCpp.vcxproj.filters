@@ -46,6 +46,12 @@
     <Text Include="primer3_29.txt">
       <Filter>Source Files</Filter>
     </Text>
+    <Text Include="primer12_9.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="primer12_12.txt">
+      <Filter>Source Files</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -225,6 +231,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="USACO\2014 Open Silver\fairphoto.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="primer12_7.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
