@@ -1,0 +1,19 @@
+1. When should you use the default keyword?
+There are no arguments. We want other constructors and the synthesized version and each of the data members
+have built-in type. 
+
+2. What is the only difference between struct and class? For what type of objects should you use each?
+When we want all of members to be public, we use struct. When we want all private, we use class.
+
+3. When might you use a friend declaration? (hint: think about the software development process).
+When you use a class (the data is private), so that you can access data members when the function/class is not
+a part of original class. 
+
+4. What is the difference between assignment and initialization?
+
+
+5. Why do you need an initializer list? Why not try to initialize inside the constructor body?
+
+
+6. What is the difference between vector<int> v(2) and vector<int> v{2}?
+

@@ -52,6 +52,12 @@
     <Text Include="primer12_12.txt">
       <Filter>Source Files</Filter>
     </Text>
+    <Text Include="primer12_17.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="primer12_25.txt">
+      <Filter>Source Files</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -236,6 +242,15 @@
     <ClCompile Include="primer12_7.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="USACO\2017 February Gold\circlecross.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="USACO\2017 February Gold\nocross.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="USACO\2017 February Gold\visitfj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="learningCpp.rc">
@@ -256,5 +271,8 @@
     <None Include="USACO\2014 March Silver\mooomoo.in" />
     <None Include="USACO\2014 Open Silver\gpsduel.in" />
     <None Include="USACO\2014 Open Silver\fairphoto.in" />
+    <None Include="USACO\2017 February Gold\circlecross.in" />
+    <None Include="USACO\2017 February Gold\nocross.in" />
+    <None Include="USACO\2017 February Gold\visitfj.in" />
   </ItemGroup>
 </Project>

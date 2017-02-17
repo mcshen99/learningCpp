@@ -1,0 +1,16 @@
+1. If a class has a data member that’s a pointer, why can’t you use the default copy and copy-assignment constructors?
+
+2. What’s an example where the copy and copy-assignment constructors would need to do different things? 
+
+3. What keyword do I need if I don’t want a copy or a copy-assignment constructor?
+
+4. What does std::move do?
+
+5. From a function, should you return by value, pointer, or reference? What’s wrong with the other two? 
+   What about C++11 made the best option possible?
+
+6. What is better about the move constructor than a copy constructor?
+
+7. What technique can you use to define your assignment constructors?
+
+8. In C++11, you usually will not need to define any of these constructors. Why not?

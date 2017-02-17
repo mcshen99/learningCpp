@@ -152,6 +152,8 @@
     <Text Include="exercise8_6.txt" />
     <Text Include="exercise9_2.txt" />
     <Text Include="primer12_12.txt" />
+    <Text Include="primer12_17.txt" />
+    <Text Include="primer12_25.txt" />
     <Text Include="primer12_9.txt" />
     <Text Include="primer3_29.txt" />
     <Text Include="ReadMe.txt" />
@@ -168,6 +170,7 @@
     <ClInclude Include="Triangle.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="USACO\2017 February Gold\circlecross.cpp" />
     <ClCompile Include="exercise0_0.cpp" />
     <ClCompile Include="exercise10_2.cpp" />
     <ClCompile Include="exercise10_3.cpp" />
@@ -219,6 +222,8 @@
     <ClCompile Include="USACO\2014 March Silver\mooomoo.cpp" />
     <ClCompile Include="USACO\2014 Open Silver\fairphoto.cpp" />
     <ClCompile Include="USACO\2014 Open Silver\gpsduel.cpp" />
+    <ClCompile Include="USACO\2017 February Gold\nocross.cpp" />
+    <ClCompile Include="USACO\2017 February Gold\visitfj.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="learningCpp.rc" />
@@ -237,6 +242,9 @@
     <None Include="USACO\2014 March Silver\mooomoo.in" />
     <None Include="USACO\2014 Open Silver\fairphoto.in" />
     <None Include="USACO\2014 Open Silver\gpsduel.in" />
+    <None Include="USACO\2017 February Gold\circlecross.in" />
+    <None Include="USACO\2017 February Gold\nocross.in" />
+    <None Include="USACO\2017 February Gold\visitfj.in" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
