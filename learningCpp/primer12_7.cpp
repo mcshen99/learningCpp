@@ -4,11 +4,11 @@
 
 using namespace std;
 
-auto make() {
+shared_ptr<vector<int>> make() {
 	return make_shared<vector<int>>();
 }
 
-auto read(shared_ptr<vector<int>> p) {
+shared_ptr<vector<int>> read(shared_ptr<vector<int>> p) {
 	cout << "Enter values: " << endl;
 	int x;
 
@@ -19,7 +19,7 @@ auto read(shared_ptr<vector<int>> p) {
 	return p;
 }
 
-auto print(shared_ptr<vector<int>> p) {
+void print(shared_ptr<vector<int>> p) {
 	for (int i : *p) {
 		cout << i << " ";	
 	}

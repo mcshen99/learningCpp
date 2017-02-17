@@ -3,12 +3,12 @@ typedef unique_ptr<int> IntP;
 a) IntP p0(ix);
 Illegal, can't take in an int
 b) IntP p1(pi);
-
+Legal but will result in undefined behavior/throw error at runtime.
 c) IntP p2(pi2);
-
+Legal but when p2 goes out of scope, pi2 will be dangling. 
 d) IntP p3(&ix);
-
+Legal but same problem as b. 
 e) IntP p4(new int(2048));
-Legal. 
+Legal and recommended.
 f) IntP p5(p2.get());
 Illegal, can't use get().
