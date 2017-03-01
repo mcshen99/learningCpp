@@ -1,0 +1,5 @@
+struct X {
+	//rem was intially intialized first, but it is initialized second and depends on base in the constructor.
+	X (int i, int j): base(i), rem(base % j) { }
+	int base, rem; 
+}

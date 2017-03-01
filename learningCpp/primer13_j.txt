@@ -1,16 +1,28 @@
 1. If a class has a data member that’s a pointer, why can’t you use the default copy and copy-assignment constructors?
+You may have multiple objects pointing to the same object. 
 
 2. What’s an example where the copy and copy-assignment constructors would need to do different things? 
+Consider a class that gives each object its own, unique serial number. Such a class would need a 
+copy constructor to generate a new, distinct serial number for the object being created. That constructor 
+would copy all the other data members from the given object. This class would also need its own 
+copy-assignment operator to avoid assigning to the serial number of the left-hand object. 
 
 3. What keyword do I need if I don’t want a copy or a copy-assignment constructor?
+=delete
 
 4. What does std::move do?
+Treats an lvalue as an rvalue. 
 
 5. From a function, should you return by value, pointer, or reference? What’s wrong with the other two? 
    What about C++11 made the best option possible?
+   A value. The other two if the object they point/refer to is destroyed you'll get an error. 
+
 
 6. What is better about the move constructor than a copy constructor?
+You only move the data you don't recopy the entire thing which is expensive. 
 
 7. What technique can you use to define your assignment constructors?
+Use noexcept because exceptions rarely happen and check for self-assignment.
 
 8. In C++11, you usually will not need to define any of these constructors. Why not?
+We can use copy. 
