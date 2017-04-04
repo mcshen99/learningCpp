@@ -1,1 +1,1 @@
-idek
+For strings, you want to be able to initalize from characters. For vectors, you don't want to be able to cast from ints to vectors. 

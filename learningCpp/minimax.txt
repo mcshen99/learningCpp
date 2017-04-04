@@ -1,0 +1,40 @@
+1. Can you show that any game, that has finitely many moves at each step and that always terminates, has a winning strategy for one of the players?
+   Fill in who wins for the game tree, starting from the bottom up. At all the leaves, since someone wins, you fill that in as who wins. Then if a person can reach a position where they win, then it is winning for them. Otherwise, it is winning for the other player. 
+
+2. For alpha-beta pruning, what is the main insight that allows us to prune out whole parts of the game tree?
+   Not all the nodes we search are necessary. If your opponent has a good response and you already have a good move, then you don't have to search that move because it is a worse move than your good move. 
+
+3. If you can evaluate 1 billion positions per one second, about how many moves forward can you look with minimax in chess with 1 minute? What about Go? Note that the average game length in chess is about 50 moves, for Go it is about 200.
+   Go - log_361(1000000000) = 3.519051673947933087280845
+   Chess - 8*3 + 1*28 + 1*8 + 2*16 + 2*8 + 2*8 = 124 
+           log_124(1000000000) = 4.29918160482918756
+4. Why else did minimax type search algorithms work well in chess, but not Go?
+   Chess has heuristics, so there were point values for pieces and board structure (pawns, board space, threats, etc). In constrast, it is difficult to evaluate who is winning in Go. Chess can be brute forced, while Go cannot. 
+
+5. MCTS related questions
+  a. What are the four stages of MCTS?
+     Selection - Select optimal child nodes until reaching a leaf node
+     Expansion - If the leaf node is not the end of the game, create children and choose one
+     Simulation - Run simulations until getting the chosen child node
+     Backpropogation - Update the current move sequence with the simulation 
+
+  b. What are the two kinds of policies for MCTS?
+     Tree policy - Select/create leaf nodes
+     Default policy - Play from non-terminal state to estimate reward
+
+  c. What kind of policy is UCT? Is it deterministic? And what are the two goals it balances?
+     Tree
+     Technically no because of tiebreaks but in general it is because there is a specific formula for picking the next one 
+     Exploitation of known rewards vs. Exploration of relatively unvisited nodes to encourage their exercise
+     
+  d. Give two examples of how MCTS fixes some of the problems with minimax type search algorithms in Go.
+     Lack of need for domain-specific knowledge: uses reward system to learn the correct move, rather than game knowledge
+     Always up-to-date: backpropogates immediately
+     Asymmetric: favors promising nodes, fixes branching factor 
+
+  e. One optimization for MCTS in Go is AMAF, what is this? Why does it work?
+     All Moves As First - When you follow the moves down a game tree and you backpropogate, you update all the nodes you visited during simulation, instead of just the nodes you selected. This works in Go because the moves are reorderable (good moves now are probably good moves later). 
+
+  f. Describe the two policies in my trumpot code. One of them is slightly customized for trumpot, which one is it, what did I do, and why?
+     Tree and default. 
+     Default, weighted probability because know stuff about the game. 

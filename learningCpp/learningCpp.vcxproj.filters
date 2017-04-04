@@ -58,6 +58,15 @@
     <Text Include="primer12_25.txt">
       <Filter>Source Files</Filter>
     </Text>
+    <Text Include="primer13_46.txt" />
+    <Text Include="primer13_j.txt" />
+    <Text Include="primer7_36.txt" />
+    <Text Include="primer7_51.txt" />
+    <Text Include="primer7_j.txt" />
+    <Text Include="USACO\2017 US Open\cownomics.in" />
+    <Text Include="minimax.txt">
+      <Filter>Source Files</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -251,6 +260,12 @@
     <ClCompile Include="USACO\2017 February Gold\visitfj.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="USACO\2017 US Open\cownomics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="USACO\2017 US Open\art2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="learningCpp.rc">
@@ -274,5 +289,8 @@
     <None Include="USACO\2017 February Gold\circlecross.in" />
     <None Include="USACO\2017 February Gold\nocross.in" />
     <None Include="USACO\2017 February Gold\visitfj.in" />
+    <None Include="USACO\2017 US Open\cownomics.out" />
+    <None Include="USACO\2017 US Open\art2.in" />
+    <None Include="USACO\2017 US Open\art2.out" />
   </ItemGroup>
 </Project>

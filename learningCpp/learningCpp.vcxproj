@@ -151,6 +151,7 @@
     <Text Include="exercise7_m.txt" />
     <Text Include="exercise8_6.txt" />
     <Text Include="exercise9_2.txt" />
+    <Text Include="minimax.txt" />
     <Text Include="primer12_12.txt" />
     <Text Include="primer12_17.txt" />
     <Text Include="primer12_25.txt" />
@@ -162,6 +163,7 @@
     <Text Include="primer7_51.txt" />
     <Text Include="primer7_j.txt" />
     <Text Include="ReadMe.txt" />
+    <Text Include="USACO\2017 US Open\cownomics.in" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="grade.h" />
@@ -229,6 +231,8 @@
     <ClCompile Include="USACO\2014 Open Silver\gpsduel.cpp" />
     <ClCompile Include="USACO\2017 February Gold\nocross.cpp" />
     <ClCompile Include="USACO\2017 February Gold\visitfj.cpp" />
+    <ClCompile Include="USACO\2017 US Open\art2.cpp" />
+    <ClCompile Include="USACO\2017 US Open\cownomics.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="learningCpp.rc" />
@@ -250,6 +254,9 @@
     <None Include="USACO\2017 February Gold\circlecross.in" />
     <None Include="USACO\2017 February Gold\nocross.in" />
     <None Include="USACO\2017 February Gold\visitfj.in" />
+    <None Include="USACO\2017 US Open\art2.in" />
+    <None Include="USACO\2017 US Open\art2.out" />
+    <None Include="USACO\2017 US Open\cownomics.out" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
